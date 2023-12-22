@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+/* eslint-disable no-unused-vars */
+
+import "./App.css";
+import ErrorOne from "./components/ErrorOne";
+import ErrorTwo from "./components/ErrorTwo";
+import ErrorThree from "./components/ErrorThree";
+import ErrorFour from "./components/ErrorFour";
+import ErrorFive from "./components/ErrorFive";
+import ErrorSix from "./components/ErrorSix";
+import ErrorSeven from "./components/ErrorSeven";
+import ErrorEight from "./components/ErrorEight";
+import ErrorNine from "./components/ErrorNine";
+import ErrorTen from "./components/ErrorTen";
+import ErrorEleven from "./components/ErrorEleven";
+import ErrorTwelve from "./components/ErrorTwelve";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <ErrorOne />
+      <ErrorTwo />
+      <ErrorThree />
+      <ErrorFour />
+      <ErrorFive />
+      <ErrorSix />
+      {/*
+      <ErrorSeven />
+      <ErrorEight />
+      <ErrorNine />
+      <ErrorTen />
+      <ErrorEleven />
+      <ErrorTwelve />
+  */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
