@@ -17,20 +17,20 @@ import ErrorTwelve from "./components/ErrorTwelve";
 function App() {
   return (
     <>
+      {/*
       <ErrorOne />
       <ErrorTwo />
       <ErrorThree />
       <ErrorFour />
       <ErrorFive />
       <ErrorSix />
-      {/*
+  */}
       <ErrorSeven />
       <ErrorEight />
       <ErrorNine />
       <ErrorTen />
       <ErrorEleven />
       <ErrorTwelve />
-  */}
     </>
   );
 }
